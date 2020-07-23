@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Grade Calculator</title>
+    <link rel="stylesheet" type = "text/css" href="grade calculator.css">
+</head>
+<body>
+    <h1><span class="styling">STUDENT</span> Grade Calculator</h1>
+
+    <main>
+        
+            <div class="app-form-group">
+                <input type = "text" class="app-form-control" placeholder="English" id = "eng">
+            </div></br>
+
+            <div class="app-form-group">
+                <input type = "text" class="app-form-control" placeholder="Maths" id = "math">
+            </div><br>
+
+            <div class="app-form-group">
+                <input type = "text" class="app-form-control" placeholder="Computer Programming" id = "comp">
+            </div></br>
+
+            <div class="app-form-group">
+                <input type = "text" class="app-form-control" placeholder="Chemistry" id = "chem">
+            </div></br></br>
+
+            <div>
+                <input type= "button" name="" value="Show Percentage" class = "app-form-button" onclick="calcy()">
+            </div>
+        
+            <div class="app-form-group-showdata">
+                 <p id="showdata"></p>
+    </div>
+    </main>
+
+    <script>
+        const calcy = () => 
+        {
+           let eng = document.getElementById('eng').value;     
+           let math = document.getElementById('math').value;    
+           let comp = document.getElementById('comp').value;    
+           let chem = document.getElementById('chem').value;  
+           let Grade = "";
+
+           let total = parseFloat(eng) + parseFloat(math) + parseFloat(comp) + parseFloat(chem) ;  // parse function for addtion
+             //to Find total
+
+           let perc = (total/400) * 100;  //to find percentages 
+           
+
+           if(perc <= 100 && perc >=80)
+           {
+               Grade = 'A';
+           }
+           else if (perc <= 79 && perc >= 60)
+           {
+               Garde = 'B';
+           }
+            else if (perc <= 59 && perc >=40)
+           {
+               Grade = 'C';
+           }
+            else
+           {
+                Grade = 'F';
+           }
+           
+           document.getElementById('showdata').innerHTML = `Out of 400  marks your total marks are ${total} and  Your Percentage is ${perc}% <br> So you got  ${Grade} Grade.`
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#031321;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    padding :10px;
+}
+.styling
+{
+    font-weight: 800;
+    color: lime;
+}
+
+
+main{
+    width: 40%;
+    height: 600px;
+    margin:auto;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+
+.app-form-control{
+    height: 40px;
+    width: 400px;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.app-form-button
+{
+height: 50px;
+width: 200px;
+color: lime;
+border: none;
+text-transform: uppercase;
+letter-spacing: 3px;
+font-size: 14px;
+
+}
+
+.app-form-button:hover{
+    height: 40px;
+    width: 400px;
+    
+    color:white;
+    background:green;
+    box-shadow: 0 0 10px green ,0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+}
+
+.app-form-group-showdata
+{   
+    padding-top: 18px;
+    color:white;
+    font-size: 20px;
+    font-style: oblique;
+
+}
