@@ -1,0 +1,91 @@
+
+*{
+    margin: 0em;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(36, 34, 34);
+}
+
+main{
+    width: 90%;
+    height: 600px;
+    margin:auto;
+    border: 1px solid black;
+    display: flex;justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* for responsive div */
+}
+div{
+    width: 30%;
+    height: 160px;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+.a
+{
+    background-image: url('images/travel8.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+}
+
+.b
+{
+    background-image: url('images/travel16.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+}
+
+.c
+{
+    background-image: url('images/travel9.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+}
+
+.d
+{
+    background-image: url('images/travel10.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+}
+
+.e
+{
+    background-image: url('images/travel11.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+}
+
+.f
+{
+    background-image: url('images/travel12.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+}
+
+.g
+{
+    background-image: url('images/travel13.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+}
+
+.h
+{
+    background-image: url('images/travel16.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+}
+
+.i
+{
+    background-image: url('images/travel15.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+}
