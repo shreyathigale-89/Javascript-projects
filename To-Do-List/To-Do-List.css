@@ -1,0 +1,116 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color:#031321;
+    color: aliceblue;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 50;
+    font-style: inherit;
+    margin: 1 rem 0 1rem;
+    text-align: center;
+    color:#fff;
+}
+
+p{
+    text-align: center;
+    color:green;
+    font-weight: 500;
+    font-size:20;
+    font-style: oblique;
+}
+ 
+.styling
+{
+    font-weight: 700;
+    color:white;
+}
+
+.input_div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input_div .form-control{
+    padding: 0.5rem 1rem;
+    height: 40px;
+    border: none;
+    outline:none;
+    background-color: #fff;
+    width: 450px;
+    font-size: 1.1rem;
+    margin:0.25rem;
+    border-radius:  5px;
+}
+.Add_button
+{
+    height: 40px;
+    width: 50px;
+    border-radius:5px;
+    outline:none;
+    border: none;
+    background-color: #fff;
+    color:black;
+    font-size: 16px;
+    margin: 0.25px;
+    background-color:whitesmoke;
+    cursor: pointer;
+}
+
+.addButton.hover{
+    opacity: 0.7;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: left;
+    margin-top: 0rem;
+}
+
+
+.list-group-item
+{
+    background: none;
+    outline:none;
+    border: none;
+    color:none;
+    width:350px;
+    font-size:1.4rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #fff;
+    padding: 0.5rem;
+}
+
+.remove
+{
+   display: none;
+   float: right;
+   font-size: 1.4rem;
+   margin: 0 0.5rem ;
+   font-family: sans-serif;
+   background: none;
+   outline: none;
+   color:wheat;
+   border: none;  
+
+}
+.list-group-item:hover > .remove 
+{
+    display: block;
+}
+
+

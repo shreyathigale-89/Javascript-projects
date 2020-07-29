@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet"  type="text/css" href="To-Do-List.css">
+        <script type="text/javascript" src="To-Do-List.js"></script>
+        <title>TO-Do-List</title>
+    </head>
+
+    <body>
+
+        <h1> <span class="styling">WORK</span> TO-DOS</h1><br>
+        <p>click on 'X' to remove task from the list.</p>
+
+        <div class="container"><br>
+            <div class="row">
+                <div class="input_div">
+                    <input type="text" class="form-control" placeholder="What do you want to do ..." id="Task_input">
+                    <button  class="Add_button" onclick="addEvent()">Add</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <ul class="list-group" id="tasks">
+                    <li type="none" class="list-group-item">Task 1 <span class ="remove"> x </span></li>
+                    <li type="none" class="list-group-item">Task 2 <span class ="remove"> x </span></li>
+                </ul>
+            </div>
+        </div>
+
+        <p id="date" onclick="displayDate()"> Show date </p>
+
+    </body>
+</html>
