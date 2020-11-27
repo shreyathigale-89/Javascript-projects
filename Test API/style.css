@@ -1,0 +1,68 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(71, 231, 156);
+}    
+
+h1
+{
+    padding-top: 10%;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+section .center-div
+{
+    border: greenyellow;
+    box-shadow: greenyellow;
+}
+
+label
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(43, 12, 12);
+}
+input
+{
+    padding: 11px 13px;
+    background: rgb(236, 89, 89);
+    border-radius: 3px;
+    border: none;
+    font-style: italic;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+.details
+{
+    padding-bottom: 30px;
+}
+.imgdiv
+{
+    padding-bottom: 30px;
+    border-radius: 3px;
+    border: turquoise;
+}
+
+button
+{
+    margin: 10px;
+    padding: 10px 20px;
+    color: wheat;
+    background-color: rgb(20, 113, 220);
+    border-radius: 3px;
+    border: none;
+    font-size: 18px;
+}
+
+button:hover
+{
+    background: tomato;
+    padding: 12px 22px;
+}
+
